@@ -53,15 +53,12 @@ var _blueDays = 0;
 var _pinkDays =0;
 var _yellowDays = 0;
 var _clearDays = 0;
-var _answer2 = 2;
-
-//var _answer2 = "During a 90 day summer Brent would wear blue on " + _blueDays + " days, pink on " + _pinkDays +  " days, yellow on " + _yellowDays + " days and clear on " + _clearDays + " days."; 
+var _answer2 = "During a 90 day summer Brent would wear blue on " + _blueDays + " days, pink on " + _pinkDays +  " days, yellow on " + _yellowDays + " days and clear on " + _clearDays + " days."; 
 
 _elanswer2 = document.getElementById("answer2");
 console.log(_elanswer2)
 _elanswer2.innerHTML = _answer2;
 
-/*
 for (var _dayofSummer = 0; _dayofSummer < _daysInSummer; _dayofSummer++) 
 {
 	if (_dayofSummer % 3 === 0 && _dayofSummer % 7 === 0) {
@@ -84,4 +81,3 @@ for (var _dayofSummer = 0; _dayofSummer < _daysInSummer; _dayofSummer++)
 //		console.log(_clearDays);
 		}
 }
-*/
