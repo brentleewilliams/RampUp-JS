@@ -9,7 +9,7 @@ he opts for his favorite blue tank instead.
 var _shirtColor = "";
 var _dayofSummer = 0;
 do {_dayofSummer = prompt ("How many days of summer have past");}
-while (_dayofSummer < 1 || _dayofSummer > 365);
+while (_dayofSummer < 1 || _dayofSummer > 365 || _dayofSummer % 1 !== 0);
 
 if (_dayofSummer % 3 === 0 && _dayofSummer % 7 === 0) {
 	_shirtColor = "Blue";} 
