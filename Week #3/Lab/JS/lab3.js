@@ -83,3 +83,8 @@ _elanswer2.innerHTML = _answer2;
 var _elanswer1 = document.getElementById('problem1');
 _elanswer1.innerHTML = _answer1;
 
+_elanswer1.click(function(){
+  document.getElementById('problem1').style.display = "none";
+});
+
+
